@@ -4,11 +4,13 @@ version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
     "dvc>=3.67.1",
+    "ipykernel>=7.4.0",
     "kaggle>=2.2.4",
     "matplotlib>=3.11.2",
     "numpy>=2.5.4",
     "opencv-python>=5.0.0.93",
     "pandas>=3.0.6",
+    "pathlib>=1.0.1",
     "split-folders>=0.6.1",
     "torch",
     "torchvision",
