@@ -1881,6 +1881,7 @@ dependencies = [
     { name = "numpy" },
     { name = "opencv-python" },
     { name = "pandas" },
+    { name = "split-folders" },
     { name = "torch" },
     { name = "torchvision" },
     { name = "trainkagg" },
@@ -1894,6 +1895,7 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.5.4" },
     { name = "opencv-python", specifier = ">=5.0.0.93" },
     { name = "pandas", specifier = ">=3.0.6" },
+    { name = "split-folders", specifier = ">=0.6.1" },
     { name = "torch", index = "https://download.pytorch.org/whl/cu124" },
     { name = "torchvision", index = "https://download.pytorch.org/whl/cu124" },
     { name = "trainkagg", specifier = ">=0.1.0" },
@@ -3106,6 +3108,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/1f/ea/49c993d6dfdd7338c9b1000a0f36817ed7ec84577ae2e52f890d1a4ff909/smmap-5.0.3.tar.gz", hash = "sha256:4d9debb8b99007ae47165abc08670bd74cb74b5227dda7f643eccc4e9eb5642c", size = 22506, upload-time = "2026-03-09T03:43:26.1Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/c1/d4/59e74daffcb57a07668852eeeb6035af9f32cbfd7a1d2511f17d2fe6a738/smmap-5.0.3-py3-none-any.whl", hash = "sha256:c106e05d5a61449cf6ba9a1e650227ecfb141590d2a98412103ff35d89fc7b2f", size = 24390, upload-time = "2026-03-09T03:43:24.361Z" },
+]
+
+[[package]]
+name = "split-folders"
+version = "0.6.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/dd/a0/1ae771eccd9ba653d3c4118fc742154f20e18c1f13fdf5de215f80e99cb1/split_folders-0.6.1.tar.gz", hash = "sha256:f45efb3df869bee0afee02de42a69a4c45de1aefe5ebdfa931ed3efa8be17bd9", size = 14052, upload-time = "2026-01-28T12:53:24.162Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/df/74/ef5fdf217c770376a68bea21d0363e0af5759e0d2755886b0d17256ce8cf/split_folders-0.6.1-py3-none-any.whl", hash = "sha256:5f8ca7f2bc67e1af6634a93cc24a0ddbdcf63a07032348b19b655699d7b0d381", size = 13287, upload-time = "2026-01-28T12:53:24.99Z" },
 ]
 
 [[package]]
