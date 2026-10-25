@@ -8,4 +8,8 @@ wheels/
 *PetImages
 *.jpg
 # Virtual environments
-.venv
+.venv/
+models/
+__pycache__/
+.pytest_cache/
+*.pyc
